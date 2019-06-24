@@ -10,14 +10,14 @@
         $(document).ready(function(){
             $("#clear").on({
                 click:function(){
-                    $("p").hide();                   
+                    $("h1").hide();                   
                     $("#show").show();
                     $(this).hide();
                 }
             })
             $("#show").on({
                 click:function(){
-                    $("p").show();
+                    $("h1").show();
                     $("#clear").show();
                     $(this).hide();
                 } 
@@ -26,8 +26,8 @@
     </script>
 </head>
 <body>
-    <p>Let's see that you can erase me or not!</p>
-    <input id="clear" type="button" value="clear">
-    <input id="show"  type="button" value="show" style="display:none">
+    <h1>Let's see that you can erase me or not!</h1>
+    <input id="clear" type="button" value="Clear" style="margin-left:240px;">
+    <input id="show"  type="button" value="Show" style="display:none ; margin-top:73px; margin-left:240px;">
 </body>
 </html>
